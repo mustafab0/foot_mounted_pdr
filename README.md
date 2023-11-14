@@ -22,6 +22,13 @@ In this specific implementation, an RP2040 microcontroller and a BNO055 IMU are 
 
 ### Software Setup
 - [ ] Clone or download the project repository from GitHub to your local machine.
+  - This project requires several Python packages for its execution. All the required packages are listed in the `requirements.txt` file. 
+
+    To install these packages, you can use pip, a package manager for Python. Simply run the following command in your terminal:
+
+    ```bash
+     pip install -r requirements.txt
+    ```
 
 - [ ] Ensure you have the env installed in the 'env.yaml' file
   - Arduino IDE is required for the hardware device
