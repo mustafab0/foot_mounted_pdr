@@ -5,6 +5,13 @@ Pedestrian Dead-Reckoning (PDR) is a technique used to estimate the position and
 In this specific implementation, an RP2040 microcontroller and a BNO055 IMU are used to create a foot-mounted PDR system.
 ## Table of Contents
 - [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [References](#References)
+
+
+## Getting Started
+
 ### Hardware Required
 - [ ] Acquire the necessary hardware components:
   - RP2040 microcontroller
@@ -21,7 +28,8 @@ In this specific implementation, an RP2040 microcontroller and a BNO055 IMU are 
   
 - [ ] Compile and upload the project code to the RP2040 microcontroller
 
-- [Usage](#usage)
+## Usage
+
 #### Hardware Setup
 
 1. **Insert SD Card and Power On:**
@@ -82,11 +90,13 @@ After recording data, follow these steps for analysis:
 - Periodically check the battery level on the power bank to avoid data loss due to sudden power failure.
 - Calibrate the device in a static position before each use for optimal performance.
 
-- [Contributing](#contributing)
+## Contributing
+
 Thank you for using this project. There are a few tweaks that have to be made but I am trying to iron out as much detail as possible. 
 Next Steps are to make the EKF run as an embedded system on the microcontroller.
 Follow similar guidelines to contribute to this project as the general conduct.
 
-- [References](#References)
+## References
+
 - Foxlin, E. (2005). Pedestrian tracking with shoe-mounted inertial sensors. EEE Computer Graphics and Applications, 38 - 46
 - Fischer, C., Sukumar, P. T., & Hazas, M. (2012). Tutorial: Implementing a Pedestrian Tracker Using Inertial Sensors. IEEE Pervasive Computing, 17 - 27.
